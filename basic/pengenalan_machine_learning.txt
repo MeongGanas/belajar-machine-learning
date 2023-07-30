@@ -1,0 +1,7 @@
+1. Machine learning adalah proses dari mengambil data dan mengubahnya menjadi sebuah insight.
+
+2. Kita menggunakan kekuatan komputer untuk menganalisah contoh dari masa lalu untuk membuat sebuah model yang bisa memprediksi hasil untuk contoh baru.
+
+3. Contoh hasil dari machine learning: 
+- Netflix merekomendasikan sebuah film untuk user.
+- Chatbot
