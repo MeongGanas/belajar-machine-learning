@@ -5,3 +5,18 @@
 3. Contoh hasil dari machine learning: 
 - Netflix merekomendasikan sebuah film untuk user.
 - Chatbot
+
+4. Teknologi yang akan digunakan: numpy, pandas, dan scikit-learn
+- Pandas untuk membaca data dan manipulasi data
+- Numpy untuk perhitungan data angka
+- Matplotlib untuk data grafik
+- Scikit-learn untuk model machine learning
+
+5. Machine learnig terbagi menjadi 3:
+- Supervised learning adalah ketika kita mengetahui target berdasarkan data masa lalu seperti prediksi harga rumah
+- Unsupervised learning adalah ketika kita tidak mengetahui jawaban masa lalu seperti menentukan topik yang dibahas dalam ulasan restoran   
+- Reinforcement learning adalah pelatihan model machine learning untuk membuat urutan keputusan. Komputer menggunakan percobaan-percobaan untuk menghasilkan solusi untuk masalah tersebut dan meyimpan hasil percobaan sebagai data. Contohnya AI catur
+
+6. Di dalam Supervised learning ada masalah classification dan regression. 
+- Regression adalah memprediksi nilai angka, contohnya memprediksi harga rumah yang akan di jual. 
+- Classification adalah memprediksi label atau kategori dari suatu data berdasarkan informasi yang ada, contohnya memprediksi apakah peminjam uang bisa melunasi utang atau tidak.
