@@ -1,0 +1,37 @@
+1. Rata-rata:
+    15, 16, 18, 19, 22, 24, 29, 30, 34
+    (15 + 16 + 18 + 19 + 22 + 24 + 29 + 30 + 34) / 9 =  207/9 = 23
+
+2. Persentil
+    Median bisa di sebut sebagai 50 Persentil. Ini berarti 50% data lebih kecil daripada median dan 50% lebih besar daripada median.
+
+    Persentil biasa digunakan untuk mengetahui bagaimana data tersebar
+
+    15, 16, 18, 19, 22, 24, 29, 30, 34
+
+    kita punya 9 data, jadi 25% dari data pasti akan menjadi sekitar 2 titik data. Jadi persentil ke 25 adalah 18 krn 18 itu lebih besar dari 25% data, 25% data itu dari data pertama sampai data ke 2 (25% * 9 = 2.25, bulatkan ke bawah) data.
+
+    Begitupula dengan 75% dari data, jadi persentil ke 75 adalah 29 krn 29 lbh besar dari 75% data, 75% data itu dari data pertama sampai data ke 6 (75% * 9 = 6.75, bulatkan ke bawah)
+
+3. Standar deviasi dan variance
+    Standar deviasi dan variance adalah pengukuran sebagaimana data tersebar
+
+    mari kita liat data umur berikut:
+    15, 16, 18, 19, 22, 24, 29, 30, 34
+
+    Mengingat rata-ratanya 23. Mari kita hitung bagaimana jauh nilai dari rata-rata
+
+    (23-15)^2 + (23-16)^2 + (23-18)^2 + (23-19)^2 + (23-22)^2 + (24-23)^2 + (29-23)^2 + (30-23)^2 + (34-23)^2
+
+    = 64 + 49 + 25 + 16 + 1 + 1 + 36 + 49 + 121
+    = 362
+
+    Bagi dengan total data untuk mendapatkan variance
+    362 / 9 = 40.22
+
+    Akar pangkat 2 untuk mendapakan standar deviasi
+    akar 40.22 = 6.34
+
+    kita bisa menyimpulkan 68% (rata2/data paling besar * 100) dari data umur berada diantara 16.66(23 - 6.34) dan 29.34(23 + 6.34).
+    
+    (mean - std), mean, (mean + std)
