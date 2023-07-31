@@ -4,7 +4,16 @@
 # mengimport library pandas dan menginisialisasikan menjadi pd
 import pandas as pd
 
-# df berarti dataframe (tabbel data)
-df = pd.read_csv('../csv/titanic.csv')
+# pd.options.display.max_columns = 6
 
+# df berarti dataframe (tabel data)
+# umumnya data di simpan dalam file extensi csv (comma-separated-values)
+df = pd.read_csv('../basic/csv/titanic.csv')
+
+# head function untuk menampilkan 5 data pertama dari dataframe
 print(df.head())
+
+print("-" * 100)
+
+# describe function mengembalikan tabel statistik (count, min, max, std, mean, median, 25th, 50th, 75th persentile) mengenai dataframe
+print(df.describe())
